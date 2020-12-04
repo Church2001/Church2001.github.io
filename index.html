@@ -184,6 +184,82 @@
             
 
   
+    <article id="post-中缀表达式转换为后缀表达式" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/2020/12/04/%E4%B8%AD%E7%BC%80%E8%A1%A8%E8%BE%BE%E5%BC%8F%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%90%8E%E7%BC%80%E8%A1%A8%E8%BE%BE%E5%BC%8F/" target="_blank">中缀表达式转换为后缀表达式</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/2020/12/04/%E4%B8%AD%E7%BC%80%E8%A1%A8%E8%BE%BE%E5%BC%8F%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%90%8E%E7%BC%80%E8%A1%A8%E8%BE%BE%E5%BC%8F/" class="archive-article-date">
+        <time datetime="2020-12-04T07:26:22.283Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-12-04</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <h1 id="转换规则"><a href="#转换规则" class="headerlink" title="转换规则"></a>转换规则</h1><p>转换过程需要用到栈。<br>1.如果遇到操作数，直接输出。<br>2.如果遇到操作符，将其放入栈中，遇到左括号或者栈内没有元素则直接放入栈中<br>3.如果遇到右括号，则将栈元素弹出并输出直到遇到左括号为止。（左括号只弹出不输出）<br>4.如果遇到操作符，栈内有元素且栈顶元素不为左括号则从栈中弹出元素并输出直到遇到的操作符优先级低于此操作符（优先级相同也要弹出和输出因为其先入栈需要先计算）。然后将此操作符压入栈中。只有遇到了右括号才会弹出左括号，其他情况不会弹出左括号。<br>5.如果我们读到了输入的末尾，则将栈中所有元素弹出并输出。</p>
+<p>例子之后加入…….</p>
+
+    
+
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+    
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2020/12/04/%E4%B8%AD%E7%BC%80%E8%A1%A8%E8%BE%BE%E5%BC%8F%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%90%8E%E7%BC%80%E8%A1%A8%E8%BE%BE%E5%BC%8F/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-计算机语言分类" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
